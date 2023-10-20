@@ -1,0 +1,32 @@
+# Ignore node_modules - this directory contains your project's dependencies.
+node_modules/
+
+# Ignore build output - the compiled, bundled, or optimized code.
+build/
+dist/
+out/
+*.log
+
+# Ignore environment files - store secrets and sensitive information elsewhere.
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.local
+
+# Ignore npm debug log.
+npm-debug.log*
+
+# Ignore local development files.
+.eslintcache
+.DS_Store
+
+# Ignore IDE and editor specific files.
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
