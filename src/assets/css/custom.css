@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+@import "slider.css";
+@import "button.css";
+@import "card.css";
+@import "footer.css";
+@import "megaMenu.css";
+@import "navbarDesktop.css";
+@import "navbarMobile.css";
+@import "typography.css";
+
 body{
     background-color: aqua;
 }
