@@ -1,32 +1,23 @@
-# Ignore node_modules - this directory contains your project's dependencies.
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Ignore build output - the compiled, bundled, or optimized code.
-build/
-dist/
-out/
-*.log
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Ignore environment files - store secrets and sensitive information elsewhere.
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-.env.local
+# testing
+/coverage
 
-# Ignore npm debug log.
-npm-debug.log*
+# production
+/build
 
-# Ignore local development files.
-.eslintcache
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Ignore IDE and editor specific files.
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
