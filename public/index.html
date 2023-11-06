@@ -2,36 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/72.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Elegance Clothing Store">
-    <meta name="apple-mobile-web-app-title" content="Elegance Clothing Store">
-    <meta name="theme-color" content="#FED000">
-    <meta name="msapplication-navbutton-color" content="#FED000">
+    <meta name="application-name" content="Easy Express">
+    <meta name="apple-mobile-web-app-title" content="Easy Express">
+    <meta name="theme-color" content="#002e62">
+    <meta name="msapplication-navbutton-color" content="#002e62">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="description" content="Elegance Clothing Store offers a meticulously curated collection of high-quality fashion and accessories, elevating your style with every purchase."/>
+    <meta name="description" content="Web site created using create-react-app"/>
       
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <title>Elegance Clothing Store</title>
+    <title>React App</title>
 
-    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-    <script>
-      window.OneSignalDeferred = window.OneSignalDeferred || [];
-      OneSignalDeferred.push(function(OneSignal) {
-        OneSignal.init({
-          appId: "5222d7e4-01ae-44b9-9a80-af4c71754cb5",
-        });
-      });
-    </script>
 
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      function googleTranslateElementInit(){
+        var config={
+          pageLanguage: 'en',
+          includedLanguages:'en,hi',
+          layout:google.translate.TranslateElement.InlineLayout.SIMPLE
+        };
+        var langOptionsID='google_translate_element';
+        new google.translate.TranslateElement(config,langOptionsID);
+      }
+    </script>
+
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   </body>
 </html>
